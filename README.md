@@ -34,3 +34,5 @@ Transforming data into a normal distribution is important in machine learning fo
    Normal distributions are easy to visualize and plot. This can help to identify patterns and relationships in the data that might be difficult to see in a skewed distribution.
 
 In summary, transforming data into a normal distribution can improve the performance, interpretability, and visualization of machine learning models. However, it is important to choose the appropriate transformation based on the specific problem and the data itself. Additionally, it is important to assess the effectiveness of the transformation on the model's performance.
+
+
