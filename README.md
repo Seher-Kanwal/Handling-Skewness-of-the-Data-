@@ -36,3 +36,20 @@ Transforming data into a normal distribution is important in machine learning fo
 In summary, transforming data into a normal distribution can improve the performance, interpretability, and visualization of machine learning models. However, it is important to choose the appropriate transformation based on the specific problem and the data itself. Additionally, it is important to assess the effectiveness of the transformation on the model's performance.
 
 
+# Differenent methods to handle skewness of the data?
+There are many methods that used in different conditions. Some are given below:
+- __Log Transform__
+   
+   Log transformation is a common technique used in machine learning to transform skewed data into a more normal distribution. This can be particularly useful when working with numerical data in regression or classification problems.
+   
+   Log transformation is particularly useful when the data has a right-skewed distribution, where the majority of values are clustered on the left side of the distribution, and a few extreme values are on the right side. In this case, the transformation can make the data more symmetric and improve the performance of some statistical analyses that assume normality.
+
+In regression problems, log transformation is often used to transform response variables that have a skewed distribution. This can help to stabilize the variance and improve the accuracy of the regression model. For example, if the response variable is income, which is typically right-skewed, taking the logarithm of the income values can help to normalize the distribution and improve the performance of the regression model.
+
+In classification problems, log transformation can be used to transform skewed features. This can be particularly useful when using linear classifiers such as logistic regression, which assume that the features are normally distributed. Log transformation can also help to reduce the influence of outliers and improve the separation between classes.
+
+It's important to note that log transformation should be used with caution and only when appropriate.
+
+ 
+- __Sqare Root Transformation__ 
+
